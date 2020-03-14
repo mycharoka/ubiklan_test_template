@@ -16,20 +16,58 @@
             <div class="col-lg-6 mt-5 pt-lg-5">
                 <div class="contentBanner mt-lg-5 pt-lg-5">
                     <div class="pull-middle">
-                        <h1 class="page-header" style="font-size: 50px; color:#585D63"></h1>
-                        <p class="lead">
+                        <br>
+                        <br>
+                        <h1 class="page-header" style="font-size: 50px; color:#585D63">{{banner}}</h1>
+                        <p class="lead">{{sub_banner}}</p>
+                    </div>
+                </div>
+            </div>
 
+            <div class="col-lg-5 ml-lg-5">
+                <div class="homeBanner">
+                    <img class="img-responsive w-100 pc-logo" style="display: block; margin: 0 auto;">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <section class="mt-5 pt-5 pb-5" id="content" style="background-color:#bbd3da;">
+        <h3 class="ml-4" style="color: white;"></h3>
+        <p class="sub-heading-content ml-4 mr-4 mt-4 text-justify text-break"></p>
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-12 text-center">
+                    <div class="pt-5 pb-5 mb-5" id="visualization" style="min-width:100%; max-height: 300px;"></div>
+                    <br>
+                    <br>
+                    <br>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="footer" style="background-color:whitesmoke; color: #585D63;">
+        <div class="ft-bg">
+            <div class="container">
+                <div class="row">
+                    <div class="hidden-xs col-sm-3 col-md-3 add-info">
+                        <p>
+                            {{footer}}
+                        </p>
+                        <p>
+                            {{address_top}}
+                        </p>
+                        <p>
+                            {{address_bottom}}
                         </p>
 
                     </div>
-
                 </div>
-
             </div>
-
         </div>
 
-    </div>
+    </footer>
     {% include 'snippets/scripts.html' %}
 </body>
 
